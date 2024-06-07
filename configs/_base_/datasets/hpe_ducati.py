@@ -1,0 +1,26 @@
+dataset_info = dict(
+    dataset_name = 'HPEDucati',
+    paper_info=dict(
+        author='Massimo Rondelli',
+        title='Human Pose Estimation for Ducati MotoGP - Computer Vision Project',
+        container='',
+        year='2024',
+        homepage='',
+    ),
+    keypoint_info = {
+        0: dict(name = 'caviglia_dx', id = 0, color = [51, 153, 255], type='upper', swap='caviglia_sx'),
+        1: dict(name = 'caviglia_sx', id = 1, color = [51, 153, 255], type='upper', swap='caviglia_dx'),
+        2: dict(name = 'ginocchio_dx', id = 2, color = [0, 255, 0], type='upper', swap='ginocchio_sx'),
+        3: dict(name = 'ginocchio_sx', id = 3, color = [0, 255, 0], type='upper', swap='ginocchio_dx'),
+        4: dict(name = 'bacino_dx', id = 4, color = [255, 128, 0], type='upper', swap='bacino_sx'),
+        5: dict(name = 'bacino_sx', id = 5, color = [255, 128, 0], type='upper', swap='bacino_dx'),
+        6: dict(name = 'mano_dx', id = 6, color = [242, 26, 26], type='upper', swap='mano_sx'),
+        7: dict(name = 'mano_sx', id = 7, color = [242, 26, 26], type='upper', swap='mano_dx'),
+        8: dict(name = 'gomito_dx', id = 8, color = [242, 26, 26], type='upper', swap='gomito_sx'),
+        9: dict(name = 'gomito_sx', id = 9, color = [204, 255, 204], type='upper', swap='gomito_dx'),
+        10: dict(name = 'spalla_dx', id = 10, color = [204, 255, 204], type='upper', swap='spalla_sx'),
+        11: dict(name = 'spalla_sx', id = 11, color = [204, 255, 204], type='upper', swap='spalla_dx'),
+    },
+    skeleton_info = {},
+    joint_weights=[],
+    sigmas=[])
