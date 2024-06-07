@@ -1,5 +1,3 @@
-/home/massimorondelli/HumanBodyEstimation/ViTPose/mmpose/data
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -52,6 +50,8 @@ coverage.xml
 .hypothesis/
 .pytest_cache/
 cover/
+
+/home/massimorondelli/HumanBodyEstimation/ViTPose/mmpose/data/ducati
 
 # Translations
 *.mo
